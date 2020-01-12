@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>How to make your Favourite Cocktail</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+    <div class="row carRow" style="margin-bottom: 0px">
+        <div class="col s12 m12 l12 left-align carCol">
+            <div class="carousel carousel-slider">
+                <div class="carousel-fixed-item center col s12 m12 offset-l3 l5 headerText center-align">
+                    <a href="index.html" class="myMix">Mixer Upper</a>
+                    <h4>Discover your new favourite cocktail</h4>
+                </div>
+                <div class="carousel-fixed-item col s12 m12 l4 offset-l8 social center-align">
+                    <!-- home icon -->
+                    <a href="index.html"><i class="fa fa-home"></i></a>
+    
+                    <!-- map icon -->
+                    <a href="map.html"><i class="fa fa-map"></i></a>
+    
+                    <!-- twitter icon -->
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw&text=This%20is%20text&url=https://jeqp.github.io/mixer-upper/"
+                        class="fa fa-twitter" data-show-count="false" onclick="window.open('https://twitter.com/share?ref_src=twsrc%5Etfw&text=Impress%20your%20friends%20with%20the%20latest%20and%20greatest%20cocktail%20recipes!%20Any%20cocktail%20you%20can%20think%20of,%20and%20we%20will%20show%20you%20how%20to%20make%20it!&url=https://jeqp.github.io/mixer-upper/', 
+                'newwindow', 
+                'width=900,height=250'); return false;"></a>
+                    <!-- facebook icon -->
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://jeqp.github.io/mixer-upper/&amp;src=sdkpreparse"
+                        class="fa fa-facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://jeqp.github.io/mixer-upper/&amp;src=sdkpreparse', 
+                'newwindow', 
+                'width=900,height=400'); return false;"></a>
+    
+                </div>
+                <a class="carousel-item" href="#one!"><img src="./images/header-image-blur.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="./images/ten-blur.jpg"></a>
+                <a class="carousel-item" href="#three!"><img src="./images/two-blur.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="./images/four-blur.jpg"></a>
+                <a class="carousel-item" href="#five!"><img src="./images/eight-blur.jpg"></a>
+              </div>
+            
+        </div>
+    
+    
+    </div>
+    <div class="row" style="margin-bottom: 0px">
+        <div class="col s2" style="position: absolute;">
+            <div class="card blueLagoon">
+                <div class="mycard">
+                    <img src="./images/bluelagoon.jpg" class="blueLagoonImage">
+                    <div class="blueTitle">Blue Lagoon</div>
+                    
+                </div>
+                <div class="card-content blueContent">
+                    <p>Blue Lagoons are a delicious combination of vodka, blue curacao, and lemonade.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+      
+    </header> 
+
+   
+
+    <div class="row mysearchRow">
+        <div class="input-field col s12 m4 offset-m3 l3 offset-l3 searchInput center-align">
+            <input id="first_name" type="text">
+            <label class="active" for="first_name">Search favourite cocktail</label>
+            <div class="myButton col l12 m12 s12">
+                <button class="btn waves-effect waves-light" id="searchButton" type="submit" name="action">Search
+                    <i class="material-icons right">send</i> </button>
+
+            </div>
+
+
+        </div>
+        <div class="input-field col s12 m3 searchInput center-align">
+            <input id="second_name" type="text">
+            <label class="active" for="second_name">Search by ingredient</label>
+            <div class="myButton col l12 m12 s12">
+                <button class="btn waves-effect waves-light" id="ingButton" type="submit" name="action">Search
+                    <i class="material-icons right">send</i> </button>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col s12 m6 offset-m3">
+            
+            <h5 class="textHide">
+                Impress your friends with distinctive cocktails! Search for one you've heard of but have yet to taste, or discover what you can create with the ingredients at hand.
+            </h5>
+        </div>
+    </div>
+
+    <div class="container infoContainer">
+        <h1>
+            <div class="text-2" id="strDrink">Margarita</div>
+        </h1>
+
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card">
+
+                    <span class="card-title cocktailThumb"></span>
+                    <div class="card-image cocktailThumb">
+                        <img src="wpxpvu1439905379.jpg" class="cocktailThumb">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m5">
+                <div class="card blue lighten-3">
+
+                    <div class="instruct">Instructions</div>
+                    <div id="strInstructions">
+                        Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten
+                        only the outer rim and sprinkle the salt on it. The salt should present to the lips of the
+                        imbiber and never mix into the cocktail. Shake the other ingredients
+                        with ice, then carefully pour into the glass.
+                    </div>
+
+                </div>
+
+                <div class="card blue lighten-3">
+
+                    <div class="instruct">Ingredients</div>
+                    <div id="strIngredients">
+                        <ul>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+
+
+            <div class="cardContainer">
+                <div class="col l5 m10 s6 cardCol">
+                    <div class="row firstRow">
+                        
+                        <div class="col s5 offset-s1">
+                            <div class="card kmart" id="card-1">
+                                <div class="card-image gmart">
+                                    <img src="./images/martini.jpg">
+                                   
+                                    <span class="card-title valign-wrapper center-align">Card Title</span>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col s5">
+                            <div class="card kmart" id="card-2">
+                                <div class="card-image gmart">
+                                    <img src="./images/martini.jpg">
+                                    <span class="card-title valign-wrapper center-align">Card Title</span>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="row secondRow">
+                        
+
+                        <div class="col s5 offset-s1">
+                         
+                                <div class="card kmart" id="card-3">
+                                  
+                                    <div class="card-image gmart">
+                                        <img src="./images/martini.jpg">
+                                        <span class="card-title valign-wrapper center-align">Card Title</span>
+                                    </div>
+
+                                </div>
+
+
+                            
+                        </div>
+                        <div class="col s5">
+                            <div class="card kmart" id="card-4">
+                                <div class="card-image gmart">
+                                    <img src="./images/martini.jpg">
+                                    <span class="card-title valign-wrapper center-align">Card Title</span>
+                                </div>
+
+                             
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/materialize.js"></script> 
+    <script src="js/init.js"></script>
+    <script src="js/script.js"></script> 
+
+</body>
+
+</html>

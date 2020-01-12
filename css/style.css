@@ -1,0 +1,378 @@
+
+
+  .carCol{
+      margin-top: -100px;
+      z-index: -500;
+  }
+
+   
+
+    .infoContainer {
+        display: none;
+    }
+
+    .headerText {
+        color: #001a33;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 70px;
+        z-index: 100;
+     
+
+    }
+   
+
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 25px;
+    }
+    .blueLagoon {
+        margin-top: -160px;
+        margin-left: 10px;
+    }
+
+   .indicators {
+       display: none;
+   }
+
+ 
+
+    #strIngredients {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #strInstructions {
+        position: relative;
+        width: 100%;
+        color: black;
+        padding: 10px;
+    }
+
+    .instruct {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        font-weight: 700;
+        text-align: center;
+        background-color: rgba(77, 2, 250, 0.5);
+    }
+
+    .card-title {
+        position: relative;
+        width: 100%;
+        height: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        background-color: rgba(0, 122, 156, 0.5);
+        z-index: 100;
+    }
+
+    .blueTitle {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        font-size: medium;
+        background-color: rgba(0, 122, 156, 0.5);
+        z-index: 100;
+    }
+
+    .blueContent {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+ 
+
+    #toast-container {
+        text-align: center !important;
+        top: 5% !important;
+        margin-top: -24px;
+    }
+
+    .rounded {
+        background-color: #ffbd4a !important;
+        margin-top: 180px;
+        text-align: center !important;
+    }
+
+    .centered {
+        text-align: center;
+        content: center;
+        background-color: purple;
+    }
+
+    #strDrink {
+        color: #4E4543;
+        font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+        text-align: center;
+    }
+
+    .blueLagoonImage {
+        width: 100%;
+    }
+
+    #searchButton {
+        background-color: #0092e0;
+    }
+
+    #ingButton {
+        background-color:#a669f0;
+    }
+
+    .btn {
+        background-color: #0080ff;
+    }
+
+    @media (max-width: 384px) {
+        
+        
+      
+        h4{
+            display: none;
+        }
+       
+        .card{
+            font-size: 12px !important;
+        }
+        .card-title{
+            font-size: 12px !important;
+
+        }
+        .blueLagoon {
+            display: none !important;
+        }
+        .carCol {
+            margin-top: 5px;
+            padding-top: 0px;
+        }
+      
+
+        .social [class*="fa fa-"] {
+            position: relative !important;
+            height: 3px !important;  
+            width: 20px !important;
+            padding-bottom: 15px;
+            padding-top: 5px !important;
+            font-size: 12px !important;
+            text-align: center;
+    
+        }
+        .myMix{
+            font-size: 25px;
+           
+        }
+        .headerText{
+            position: relative !important;
+          
+           
+        }
+       
+      
+     
+       
+    }
+
+
+
+    @media (min-width: 385px) and (max-width: 600px) {
+        h4{
+            display: none;
+        }
+       
+        .card{
+            font-size: 12px !important;
+        }
+        .card-title{
+            font-size: 12px !important;
+
+        }
+        .blueLagoon {
+            display: none !important;
+        }
+        .carCol {
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+        
+      .carousel {
+          position: relative !important;
+          bottom: -50px !important;
+      }
+        .social [class*="fa fa-"] {
+            height: 25px !important;  
+            width: 25px !important;
+            padding-bottom: 15px !important;;
+            padding-top: 5px !important;
+            font-size: 15px !important;
+            text-align: center;
+    
+        }
+        .myMix{
+            margin-bottom: 0px;
+            font-size: 40px;
+        }
+        .headerText{
+            position: relative !important;
+            top: 5px !important;
+    
+        }
+     
+    
+       
+    }
+
+    @media (min-width: 601px) and (max-width: 800px) {
+        #toast-container {
+            left: 0% !important;
+            margin: 0px;
+            text-align: center;
+        }
+        .toast .message {
+            margin: auto;
+        }
+        .blueLagoon {
+            display: none !important;
+        }
+      
+      
+        h4{
+            display: none;
+        }
+       
+        .card{
+            font-size: 12px !important;
+        }
+        .card-title{
+            font-size: 12px !important;
+
+        }
+        .blueLagoon {
+            display: none !important;
+        }
+        .carCol {
+            margin-top: 5px;
+            padding-top: 0px;
+        }
+      
+
+        .social [class*="fa fa-"] {
+            height: 40px !important;  
+            width: 40px !important;
+            padding-bottom: 20px;
+            padding-top: 7px !important;
+            font-size: 25px !important;
+            text-align: center;
+    
+        }
+        .myMix{
+            margin-bottom: 25px;
+            font-size: 60px;
+        }
+       
+    }
+
+    @media (max-width: 992px) {
+
+      
+        .blueLagoon {
+            display: none;
+        }
+         .headerText{
+            margin-bottom: 45px;
+            font-size: 45px;
+        }
+
+       
+        .card-title{
+            font-size: 18px !important;
+
+        }
+      
+
+        h4{
+            display: none;
+        }
+       
+     
+        #toast-container {
+            text-align: center !important;
+            top: 5% !important;
+            left: 40% !important;
+            margin-top: 100px;
+        }
+        .rounded {
+            background-color: #ffbd4a !important;
+            margin-top: 20px;
+            text-align: center !important;
+            width: 134px !important;
+        }
+      
+    }
+
+    @media (min-width: 993px) {
+        .myMix{
+            bottom: 5px !important;
+            font-size: 70px;
+        
+    
+        }
+        h4 {
+            padding: 0px;
+            margin: 0px;
+        }
+        #toast-container {
+            text-align: center !important;
+            top: 5% !important;
+            left: 40% !important;
+            margin-top: 0px;
+        }
+        .rounded {
+            background-color: #ffbd4a !important;
+            margin-top: 20px;
+            text-align: center !important;
+            width: 134px !important;
+        }
+      
+    }
+
+    .social [class*="fa fa-"] {
+        background-color: #4267B2;
+        border-radius: 50px;
+        color: #fff;
+        /* display: inline-block; */
+        height: 50px;
+        /* line-height: 30px; */
+        margin: auto 3px;
+        width: 50px;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 10px;
+    }
+
+    .social [class*="fa fa-"]:hover {
+        background-color: #46c0fb;
+    }
+    a:hover{
+        color: #0079c4;
+    }
+
+    .blueLagoon:hover{
+        cursor: pointer;
+        background-color: #abe4f5;
+        
+    }
+    .kmart {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: #001a33;
+    }
